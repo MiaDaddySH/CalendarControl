@@ -10,6 +10,12 @@
 		0B31320226382A87004E044D /* CalendarControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B3131F826382A86004E044D /* CalendarControl.framework */; };
 		0B31320726382A87004E044D /* CalendarControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B31320626382A87004E044D /* CalendarControlTests.swift */; };
 		0B31320926382A87004E044D /* CalendarControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B3131FB26382A86004E044D /* CalendarControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B82ED012638358B00B32D8D /* MonthMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B82ECFB2638358A00B32D8D /* MonthMetadata.swift */; };
+		0B82ED022638358B00B32D8D /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B82ECFC2638358A00B32D8D /* Day.swift */; };
+		0B82ED032638358B00B32D8D /* CalendarPickerHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B82ECFD2638358A00B32D8D /* CalendarPickerHeaderView.swift */; };
+		0B82ED042638358B00B32D8D /* CalendarPickerFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B82ECFE2638358A00B32D8D /* CalendarPickerFooterView.swift */; };
+		0B82ED052638358B00B32D8D /* CalendarPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B82ECFF2638358B00B32D8D /* CalendarPickerViewController.swift */; };
+		0B82ED062638358B00B32D8D /* CalendarDateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B82ED002638358B00B32D8D /* CalendarDateCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +35,12 @@
 		0B31320126382A87004E044D /* CalendarControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalendarControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B31320626382A87004E044D /* CalendarControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarControlTests.swift; sourceTree = "<group>"; };
 		0B31320826382A87004E044D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B82ECFB2638358A00B32D8D /* MonthMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthMetadata.swift; sourceTree = "<group>"; };
+		0B82ECFC2638358A00B32D8D /* Day.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		0B82ECFD2638358A00B32D8D /* CalendarPickerHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarPickerHeaderView.swift; sourceTree = "<group>"; };
+		0B82ECFE2638358A00B32D8D /* CalendarPickerFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarPickerFooterView.swift; sourceTree = "<group>"; };
+		0B82ECFF2638358B00B32D8D /* CalendarPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarPickerViewController.swift; sourceTree = "<group>"; };
+		0B82ED002638358B00B32D8D /* CalendarDateCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarDateCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +83,12 @@
 		0B3131FA26382A86004E044D /* CalendarControl */ = {
 			isa = PBXGroup;
 			children = (
+				0B82ED002638358B00B32D8D /* CalendarDateCollectionViewCell.swift */,
+				0B82ECFE2638358A00B32D8D /* CalendarPickerFooterView.swift */,
+				0B82ECFD2638358A00B32D8D /* CalendarPickerHeaderView.swift */,
+				0B82ECFF2638358B00B32D8D /* CalendarPickerViewController.swift */,
+				0B82ECFC2638358A00B32D8D /* Day.swift */,
+				0B82ECFB2638358A00B32D8D /* MonthMetadata.swift */,
 				0B3131FB26382A86004E044D /* CalendarControl.h */,
 				0B3131FC26382A86004E044D /* Info.plist */,
 			);
@@ -147,6 +165,7 @@
 				TargetAttributes = {
 					0B3131F726382A86004E044D = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 					0B31320026382A87004E044D = {
 						CreatedOnToolsVersion = 12.4;
@@ -194,6 +213,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B82ED022638358B00B32D8D /* Day.swift in Sources */,
+				0B82ED032638358B00B32D8D /* CalendarPickerHeaderView.swift in Sources */,
+				0B82ED012638358B00B32D8D /* MonthMetadata.swift in Sources */,
+				0B82ED042638358B00B32D8D /* CalendarPickerFooterView.swift in Sources */,
+				0B82ED062638358B00B32D8D /* CalendarDateCollectionViewCell.swift in Sources */,
+				0B82ED052638358B00B32D8D /* CalendarPickerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +366,7 @@
 		0B31320D26382A87004E044D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = JND9XWCEGQ;
@@ -357,6 +383,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.miadaddy.CalendarControl;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,6 +392,7 @@
 		0B31320E26382A87004E044D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = JND9XWCEGQ;
@@ -389,6 +417,7 @@
 		0B31321026382A87004E044D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JND9XWCEGQ;
 				INFOPLIST_FILE = CalendarControlTests/Info.plist;
@@ -407,6 +436,7 @@
 		0B31321126382A87004E044D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JND9XWCEGQ;
 				INFOPLIST_FILE = CalendarControlTests/Info.plist;
